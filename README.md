@@ -21,26 +21,30 @@ The Flight Information Checker is a web application that provides real-time info
 
 1. Clone the repository:
 
-   ```bash
+    ```bash
    git clone https://github.com/kev-129/flight-information-checker.git
-Install dependencies:
+    ```
+2. Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Set up environment variables:
+    ```bash
+        pip install -r requirements.txt
+    ```
+
+3.Set up environment variables:
 
 Create a .env file in the project root with the following:
 
-env
-Copy code
+
 airport_api_key=your_airport_api_key
 weather_api_key=your_weather_api_key
-Run the Flask app:
 
-bash
-Copy code
+4.Run the Flask app:
+
+```bash
+
 python app.py
+```
+
 The app will be available at http://localhost:5000.
 
 Deploying on Render.com
