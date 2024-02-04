@@ -29,25 +29,24 @@ The Flight Information Checker is a web application that provides real-time info
     ```bash
         pip install -r requirements.txt
     ```
-
 3.Set up environment variables:
 
-Create a .env file in the project root with the following:
+    Create a .env file in the project root with the following:
 
 
-airport_api_key=your_airport_api_key
-weather_api_key=your_weather_api_key
+    airport_api_key=your_airport_api_key
+    weather_api_key=your_weather_api_key
 
 4.Run the Flask app:
 
-```bash
+    ```bash
 
-python app.py
-```
+    python app.py
+    ```
 
-The app will be available at http://localhost:5000.
+    The app will be available at http://localhost:5000.
 
-Deploying on Render.com
+## Deploying on Render.com
 Create an account on Render.com.
 
 Create a new web service on Render, and set up the following:
@@ -59,12 +58,6 @@ Deploy the service.
 
 Your web service will be live at the provided Render URL.
 
-Contact
-For any questions or issues, feel free to reach out to:
-
-Your Name
-kotlin
-Copy code
 
 
 
